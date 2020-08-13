@@ -1,0 +1,237 @@
+/**
+    Général
+**/
+
+.bootstrap .page-head h4.page-subtitle{
+  margin-top: 70px;
+}
+
+.tunisiesms {
+  padding: 0px 15px;
+}
+
+.tunisiesms a {
+  color: #428bca;
+  text-decoration: none;
+}
+
+/**
+    Crédits
+**/
+
+.tunisiesms .widget_credits {
+
+}
+
+.tunisiesms .widget_credits .type_credit {
+  margin: 0;
+}
+
+.tunisiesms .widget_credits .row.produit_credits {
+
+}
+
+.tunisiesms .widget_credits p.produit span {
+  background: #2a6eba none repeat scroll 0 0;
+  border-radius: 15px;
+  color: #ffffff;
+  display: inline-block;
+  font-size: 16px;
+  line-height: 30px;
+  padding: 2px 30px;
+  text-align: center;
+  width: auto;
+}
+
+.tunisiesms .widget_credits p.quantite {
+  color: #2a6eba;
+  font-family: arial,verdana,sans-serif;
+  font-size: 38px;
+  line-height: 38px;
+  margin: 0;
+  font-family: "Ubuntu Condensed",Helvetica,Arial,sans-serif;
+}
+
+.tunisiesms .widget_credits p.credit {
+  color: #2a6eba;
+  font-size: 20px;
+  font-family: "Ubuntu Condensed",Helvetica,Arial,sans-serif;
+}
+
+.tunisiesms .widget_credits p.lien_recharge{
+  text-align: right;
+}
+
+.tunisiesms .widget_credits p.lien_recharge a {
+  background: #ffffff none repeat scroll 0 0;
+  border: 1px solid #d3d3d3;
+  border-radius: 5px;
+  color: #555555;
+  cursor: pointer;
+  display: inline-block;
+  font-size: 18px;
+  height: 60px;
+  line-height: 20px;
+  padding: 20px;
+  text-align: left;
+  text-transform: uppercase;
+  text-decoration: none;
+  font-family: "Ubuntu Condensed",Helvetica,Arial,sans-serif;
+}
+
+.tunisiesms .widget_credits p.lien_recharge a span.icone {
+  background: rgba(0, 0, 0, 0) url("../img/ico_plus_btn_recharger.png") no-repeat scroll left center;
+  border: medium none;
+  float: left;
+  height: 18px;
+  line-height: 18px;
+  margin: 0 7px 0 0;
+  width: 18px;
+  position: relative;
+  top: 1px;
+}
+
+.tunisiesms .widget_credits p.lien_recharge a:hover{
+  background:#555555;
+  border:1px solid #555555;
+  color:#ffffff;
+}
+
+/**
+    Datatables
+**/
+
+.dataTables_wrapper,
+.bootstrap .dataTables_wrapper .table.dataTable tbody > tr > td{
+  font-size: 13px;
+}
+
+table.dataTable {
+  margin-top: 1%;
+  width:50%;
+  float: left;
+}
+
+.dataTables_wrapper .dataTables_filter {
+  float: left;
+  margin-left: 4%;
+}
+
+table.dataTable thead .sorting_asc {
+  width: 20%;
+}
+.dataTables_wrapper .dataTables_paginate {
+  float:left;
+  margin-left: 4%;
+}
+
+/**
+    Config
+**/
+
+.row_title{
+  background: #f2f2f2;
+  padding: 15px;
+  border-radius: 5px;
+  margin-bottom: 20px;
+}
+.row_title h2{
+  font-size:22px;
+  line-height:36px;
+  padding:0;
+  margin:0;
+}
+.row_title h2 span.icon{
+  display:inline-block;
+  width:36px;
+  height:36px;
+  font-weight: normal;
+  color:#ffffff;
+  font-size:22px;
+  line-height:36px;
+  padding:0;
+  margin:0 10px 0 0;
+  text-align:center;
+  background: #c94c4c;
+  border-radius: 5px;
+}
+label.label_block{
+  background:#f2f2f2;
+  margin-bottom:0px;
+  border:none;
+  display: block;
+  font-weight: normal;
+  padding:20px 20px 0px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.label_block input[type="checkbox"]{
+  display: none;
+}
+.label_block p{
+  margin:0 0 20px 0;
+  font-weight: bold;
+}
+.choix_type_param label.label_block:hover{
+  border:none;
+}
+.choix_type_param.active label.label_block{
+  border:none;
+  padding:20px 20px 20px 20px;
+}
+.choix_type_param.active label.label_block.col_ignorer{
+  background: #eeeeee;
+}
+.choix_type_param .select_choix{
+  line-height: 30px;
+  border-radius: 15px;
+  margin:0 10px 0 0;
+}
+.choix_type_param .select_choix{
+  display: inline-block;
+  width: 30px;
+  height:30px;
+  line-height: 26px;
+  font-size: 18px;
+  margin:0 5px 0 0;
+  background: transparent;
+  border:2px solid #bbbbbb;
+  opacity: 1;
+  visibility:visible;
+  border-radius: 15px;
+  text-align: center;
+}
+.choix_type_param .select_choix .icon{
+  opacity: 0;
+  color:#ffffff;
+}
+.choix_type_param.active .select_choix{
+  background: #5cb85c;
+  border:2px solid #5cb85c;
+}
+.choix_type_param.active .select_choix .icon{
+  opacity: 1;
+  margin:0;
+}
+.choix_type_param .row_notification{
+  display: none;
+}
+.choix_type_param.active .row_notification{
+  display: block;
+}
+.message_compteur{
+  text-align: right;
+  padding:10px 0;
+}
+.bootstrap .form-horizontal .label-destinataires,
+.bootstrap .form-horizontal .control-label.label-destinataires{
+  text-align: left;
+  margin-bottom: 20px;
+  font-size: 15px;
+  font-weight: bold;
+}
+
+/**   Icone Spot-Hit **/ 
+.icon-AdminSHEnvoyerSMS::before {   
+  content: "\f086"; 
+}
